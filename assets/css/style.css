@@ -1,0 +1,38 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+}
+
+::selection {
+    background-color: var(--bright-turquoise);
+    color: var(--outer-space);
+}
+
+html {
+    font-size: 62.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: var--(gin);
+    background-color: var(--outer-space);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+    margin-bottom: 0.625rem;
+    color: var(--heliotrope);
+    font weight: 700;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 4rem;
+}
